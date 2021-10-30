@@ -1,10 +1,15 @@
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyC_eQHeypyf7GN0Zbtd1Moitryuj0y5cKo",
+
+  authDomain: "adventour-35da7.firebaseapp.com",
+
+  projectId: "adventour-35da7",
+
+  storageBucket: "adventour-35da7.appspot.com",
+
+  messagingSenderId: "1057636517450",
+
+  appId: "1:1057636517450:web:6c5e261cb43bf76727c8b3",
 };
 
 export default firebaseConfig;

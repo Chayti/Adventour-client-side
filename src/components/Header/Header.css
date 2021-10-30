@@ -1,0 +1,35 @@
+/* header */
+.header{
+  background-color: white;
+}
+
+.logo{
+  height: 60px;
+  margin-left: 1.5em ;
+}
+
+.title{
+  color:green;
+}
+
+/* navbar */
+.navbar{
+  background-color: green;
+  display: flex;
+  justify-content:flex-start;
+}
+.navbar .link{
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  margin-left: 1.5em ;
+  padding: 5px;
+}
+.navbar .link:hover{
+  background-color: rgba(240, 255, 240, 0.788);
+  border-radius: 5px;
+  color: green;
+  font-weight: bold;
+  margin-left: 1.2em;
+  transition: background-color 2s;
+}
