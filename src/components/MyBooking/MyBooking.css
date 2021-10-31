@@ -1,0 +1,25 @@
+.my-service{
+    background-color: #00b9d1c4;
+}
+.my-service img{
+    height: 30%;
+    width: 50%;
+}
+.my-service p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-service .delete-btn{
+    background-color: white;
+    border:2px solid red;
+    color:red;
+}
+.my-service .delete-btn:hover{
+    transform: none;
+    background-color: red;
+    color:white;
+}

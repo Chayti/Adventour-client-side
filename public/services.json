@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Sundarbans Safari Tour",
+        "img": "https://www.sunderbannationalpark.in/blog/wp-content/uploads/2018/08/Sundarban-Forest.jpg",
+        "description": " Sundarbans as the name suggests is a beautiful forested place. The rivers, the canals, the Mangrove forest, Tigers, birds, Canoes all make this place amazing. The overall expense is very pocket friendly. Although at most places the accommodation is basic. But the sights, sounds and smell of this place is worth a visit. Sundarban is the world's largest delta and this is the only place for Bengal tiger and other animals. According to research 58 species of mammals, 55 species of reptiles and around 248 bird species. You can travel there by our safari jeep and have lots of fun and view Tiger and other animals."
+    },
+    {
+        "id": 2,
+        "name": "Treasures of Chittagong",
+        "img": "https://nijhoom.com/wp-content/uploads/tours/holidays/chittagong/treasures-related-414x259-o.jpg",
+        "description": "Chittagong is large port city on the southeastern coast of Bangladesh. The Ethnological Museum has exhibits about the many different ethnic tribes across the country. Zia Memorial Museum, inside the former Old Circuit House, displays items belonging to former president Ziaur Rahman, who was assassinated on the site in 1981. The landmark Chandanpura Mosque has many onion-shaped domes and brightly painted minarets. There are such many travel spots in Chittagong like Boga Lake, Patenga Beach, Karnaphuli River etc."
+    },
+    {
+        "id": 3,
+        "name": "Cox's Bazar Tour",
+        "img": "https://porzoton.com/wp-content/uploads/2020/03/Coxs-Bazar-Sea-Beach-00.jpg",
+        "description": "Cox’s Bazar is a town on the southeast coast of Bangladesh. It’s known for its very long, sandy beachfront, stretching from Sea Beach in the north to Kolatoli Beach in the south. Aggameda Khyang monastery is home to bronze statues and centuries-old Buddhist manuscripts. South of town, the tropical rainforest of Himchari National Park has waterfalls and many birds. North, sea turtles breed on nearby Sonadia Island. Cox's Bazar is famous for its long natural sandy sea beach. Cox's Bazar has the world's largest unbroken sea beach which stretches more than 120 km. The entire beach is a stretch of golden sandy sea beach which is reachable by motorbike."
+    },
+    {
+        "id": 4,
+        "name": "Kantaji Temple Tour",
+        "img": "https://nijhoom.com/wp-content/uploads/2016/11/kantaji-temple-full-view-800-r.jpg",
+        "description": "Kantanagar Temple, commonly known as Kantaji Temple or Kantajew Temple at Kantanagar, is a late-medieval Hindu temple in Dinajpur, Bangladesh. The Kantajew Temple is a religious edifice belonging to the 18th century. The temple belongs to the Hindu Kanta or Krishna and this is most popular with the Radha-Krishna cult (assemble of memorable love) in Bengal. This temple is dedicated to Krishna and his wife Rukmini. Built by Maharaja Pran Nath, its construction started in 1704 CE and ended in the reign of his son Raja Ramnath in 1722 CE. It is an example of terracotta architecture in Bangladesh and once had nine spires, but all were destroyed in an earthquake that took place in 1897."
+    },
+    {
+        "id": 5,
+        "name": "Srimangal Tour",
+        "img": "https://i.pinimg.com/originals/18/1c/9d/181c9df5e3a1099e70bfcc846de44b9a.jpg",
+        "description": "Srimangal is said the name Sreemangal (or Srimangal) is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor. A copper plate of Raja Marundanath from the 11th century was found in Kalapur. During an excavation at Lamua, an ancient statue of Ananta Narayan was dug out. In 1454, the Nirmai Shiva Bari was built and still stands today. Srimangal thana was established in 1912. The central town later became a pourashava in 1935. In 1963, two peasants were killed by police officers which kicked off the Balishira peasant riots. During the Bangladesh Liberation War of 1971, the Pakistani army reached Srimangal on 30 April setting houses on fire and committing atrocities against women. The East Pakistan Rifles camp and Wapda office premises were among the two mass killing sites. Two mass graves remain in Bharaura with a memorial in North Bharaura."
+    },
+    {
+        "id": 6,
+        "name": "Panam City Tour",
+        "img": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/2e/14.jpg",
+        "description": "Panam City (also called Panam Nagar in Bengali) was an ancient city, the archaeological ruins of which is situated at Sonargaon, Narayanganj in Bangladesh. It is one of the earliest cities in Bangladesh that is still standing. Among the three cities of the time period: Boro nagar (Big City), Khas Nagar and Panam Nagar; Panam Nagar was the most attractive one. The city area which covers roughly 20 square kilometres (7.7 sq mi), consists of several historical buildings built centuries ago connected with the history of Baro-Bhuyan. Reportedly, this is one of the most visited tourist spots in Bangladesh. As the capital of the fifteenth-century Bengal ruler Isa Khan, the city was once an important trading and political center. Although the buildings are now mostly in ruins, the historical city boasts architectural examples from the Sultanate, Mughal, and British Colonial periods."
+    }
+]

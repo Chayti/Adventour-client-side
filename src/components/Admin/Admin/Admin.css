@@ -1,0 +1,21 @@
+.admin-area {
+  background: #334940c9;
+  color: white;
+  height: 100%;
+}
+.admin-container {
+  overflow-x: hidden;
+}
+.admin-menu {
+  list-style: none;
+  cursor: pointer;
+}
+.admin-menu:hover {
+  color: #0dcaf0;
+}
+
+@media only screen and (min-width:766){
+  .admin-area{
+    height: 30vh;
+  }
+}

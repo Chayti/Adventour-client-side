@@ -1,0 +1,15 @@
+#services{
+    width: 100%;
+    padding: 40px 60px;
+    background-image: url(../../images/services-banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#services h1{
+    font-size: 50px;
+    color: #00b9d1;
+    text-shadow:  0px 0px 5px #000;
+    word-wrap: break-word;
+    font-weight: bold;
+}

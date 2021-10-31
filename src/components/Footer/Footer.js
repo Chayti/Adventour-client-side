@@ -14,12 +14,12 @@ const Footer = () => {
                     <h5 style={{ color: "#00b9d1" }}>+8801721888888,&nbsp;</h5>
                     <h5 style={{ color: "#00b9d1" }}>+8801533333377</h5>
                 </div>
-                <small style={{ color: "white" }}>24/7 (Anytime, Anywhere)</small>
+                <small style={{ color: "white" }}>Anytime with you</small>
                 <p style={{ color: "white" }}><FontAwesomeIcon icon={faEnvelope} size="1x" /> <span style={{ cursor: "pointer" }}>info@adventour.com</span></p>
             </div>
 
             <div className="text-center" style={{ height: "30px", color: "#494949", backgroundColor: "#202020" }}>
-                <small>© Copyright 2019-2021 | Adventour</small>
+                <small>© Copyright 2015-2021 | Adventour</small>
             </div>
 
         </div>

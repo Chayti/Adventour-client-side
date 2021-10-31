@@ -29,7 +29,13 @@ const Header = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-center">
             <Nav.Link as={Link} to="/home" className="link">HOME</Nav.Link>
-            <Nav.Link as={Link} to="/myBookings" className="link">MY BOOKINGS</Nav.Link>
+            <Nav.Link as={Link} to="/services" className="link">OUR SERVICES</Nav.Link>
+            {
+              user.email ?
+                <Nav.Link as={Link} to="/myBookings" className="link">MY BOOKINGS</Nav.Link>
+                : <p></p>
+
+            }
             {
               user.email ?
                 <span className="mx-4 px-1 my-0 text-light">Hello, {user.displayName}</span>
@@ -42,13 +48,13 @@ const Header = () => {
             }
             {
               user.email ?
-                <Nav.Link as={Link} to="/admin" className="link"><button className="px-4 btn bg-info">Admin</button></Nav.Link>
+                <Nav.Link as={Link} to="/admin" className="link"><button className="px-4 btn bg-info border-0 m-0">Admin</button></Nav.Link>
                 : <p></p>
 
             }
             {
-              user.email ? <button onClick={handleLogout} className="btn btn-warning ms-2"><FontAwesomeIcon icon={faSignOutAlt} size="1x" />&nbsp;Log out</button>
-                : <NavLink to="/login" activeStyle={style} className="link"><button className="btn btn-warning"><FontAwesomeIcon icon={faSignInAlt} size="1x" />&nbsp;Login</button></NavLink>
+              user.email ? <button onClick={handleLogout} className="btn border-0 ms-2"><FontAwesomeIcon icon={faSignOutAlt} size="1x" />&nbsp;Log out</button>
+                : <NavLink to="/login" activeStyle={style} className="link"><button className="btn btn-warning m-0"><FontAwesomeIcon icon={faSignInAlt} size="1x" />&nbsp;Login</button></NavLink>
             }
           </Navbar.Collapse>
         </Container>
