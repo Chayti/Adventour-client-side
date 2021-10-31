@@ -15,10 +15,10 @@ const ServiceDetail = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://spooky-skull-68797.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => {
-                console.log(`http://localhost:5000/services/${serviceId}`)
+                console.log(`https://spooky-skull-68797.herokuapp.com/services/${serviceId}`)
                 setService(data)
             }
             );
@@ -26,7 +26,7 @@ const ServiceDetail = () => {
     console.log(serviceId)
 
     const onSubmit = data => {
-        fetch('http://localhost:5000/booking', {
+        fetch('https://spooky-skull-68797.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

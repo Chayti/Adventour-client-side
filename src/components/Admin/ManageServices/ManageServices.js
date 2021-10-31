@@ -8,13 +8,13 @@ const ManageServices = () => {
   const [services, setServices] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:5000/services')
+    fetch('https://spooky-skull-68797.herokuapp.com/services')
       .then(res => res.json())
       .then(data => setServices(data));
   }, [services])
 
   const handleDelete = (id) => {
-    const url = `http://localhost:5000/services/${id}`
+    const url = `https://spooky-skull-68797.herokuapp.com/services/${id}`
     const ans = window.confirm('Do you want to delete it?')
     if (ans) {
       axios

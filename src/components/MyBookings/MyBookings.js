@@ -9,14 +9,14 @@ const MyBookings = () => {
     const { user } = useFirebase();
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/myServices/${user?.email}`)
+        fetch(`https://spooky-skull-68797.herokuapp.com/myServices/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setServices(data));
     }, [user.email, services]);
 
     const handleDelete = (id) => {
         console.log(id)
-        const url = `http://localhost:5000/services/${id}`
+        const url = `https://spooky-skull-68797.herokuapp.com/services/${id}`
         const ans = window.confirm('Do you want to delete it?')
         if (ans) {
             axios

@@ -12,7 +12,7 @@ const AddService = () => {
     data.email = user?.email;
     data.status = 'pending';
     console.log(data);
-    axios.post('http://localhost:5000/addService', data)
+    axios.post('https://spooky-skull-68797.herokuapp.com/addService', data)
       .then(res => {
         if (res.data.insertedId) {
           alert('added successfully')
