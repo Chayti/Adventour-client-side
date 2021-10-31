@@ -16,17 +16,19 @@ const useFirebase = () => {
     return signInWithPopup(auth, provider);
   };
 
+  // observe whether user auth state changed or not
   useEffect(() => {
-    onAuthStateChanged(auth, (user) => {
+    const unsubscribed = onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
-        const uid = user.uid;
-      } else {
-
+      }
+      else {
+        setUser({})
       }
       setIsLoading(false);
     });
-  }, []);
+    return () => unsubscribed;
+  }, [])
 
   const handleLogout = () => {
     setIsLoading(true);

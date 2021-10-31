@@ -53,7 +53,8 @@ const Header = () => {
 
             }
             {
-              user.email ? <button onClick={handleLogout} className="btn border-0 ms-2"><FontAwesomeIcon icon={faSignOutAlt} size="1x" />&nbsp;Log out</button>
+              user.email
+                ? <button onClick={handleLogout} className="btn border-0 ms-2"><FontAwesomeIcon icon={faSignOutAlt} size="1x" />&nbsp;Log out</button>
                 : <NavLink to="/login" activeStyle={style} className="link"><button className="btn btn-warning m-0"><FontAwesomeIcon icon={faSignInAlt} size="1x" />&nbsp;Login</button></NavLink>
             }
           </Navbar.Collapse>
