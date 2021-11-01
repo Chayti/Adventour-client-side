@@ -55,7 +55,7 @@ const ManageServices = () => {
 
           <div className="bg-info d-flex justify-content-between m-4 px-4 py-3 border-2 border-primary rounded-pill w-75 mx-auto">
             <h5 className="fw-bold text" style={{ display: "inline" }}>{service.name}</h5>
-            <div className="d-flex">
+            <div className="d-md-flex">
               <div className="fw-bold" style={{ color: "brown", textDecoration: "underline" }}>
                 <p>{service.status}</p>
               </div>
