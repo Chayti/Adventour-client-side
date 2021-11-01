@@ -9,7 +9,7 @@ const Service = ({ service }) => {
             <img className="m-3" src={img} alt="" />
             <h3 className="px-3">{name}</h3>
             <p className="px-3">{description}</p>
-            <span className="bg-primary p-2 text-white">Status : Pending</span>
+            {/* <span className="bg-primary p-2 text-white">Status : Pending</span> */}
             <br />
             <Link to={`/service/${_id}`}>
                 <button className="btn mx-3">Book Now</button>

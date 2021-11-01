@@ -10,7 +10,7 @@ const AddService = () => {
 
   const onSubmit = (data) => {
     data.email = user?.email;
-    data.status = 'pending';
+    // data.status = 'pending';
     console.log(data);
     axios.post('https://spooky-skull-68797.herokuapp.com/addService', data)
       .then(res => {

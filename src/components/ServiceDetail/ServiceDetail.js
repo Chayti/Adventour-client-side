@@ -26,6 +26,11 @@ const ServiceDetail = () => {
     console.log(serviceId)
 
     const onSubmit = data => {
+        data.serviceId = serviceId
+        data.name = service.name
+        data.img = service.img
+        data.description = service.description
+        data.status = 'pending'
         fetch('https://spooky-skull-68797.herokuapp.com/booking', {
             method: 'POST',
             headers: {

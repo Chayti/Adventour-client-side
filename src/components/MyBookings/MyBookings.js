@@ -15,14 +15,14 @@ const MyBookings = () => {
     }, [user.email, services]);
 
     const handleDelete = (id) => {
-        console.log(id)
-        const url = `https://spooky-skull-68797.herokuapp.com/services/${id}`
+        console.log(`https://spooky-skull-68797.herokuapp.com/booking/${id}`)
+        const url = `https://spooky-skull-68797.herokuapp.com/booking/${id}`
         const ans = window.confirm('Do you want to delete it?')
         if (ans) {
             axios
                 .delete(url)
                 .then(data => {
-                    console.log(data)
+                    // console.log(data)
                     if (data.acknowledged) {
                         const remaining = services.filter(service => service._id !== id)
                         setServices(remaining)
