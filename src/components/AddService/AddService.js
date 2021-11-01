@@ -32,6 +32,8 @@ const AddService = () => {
               <input className="m-3 p-2" placeholder="Image URL" {...register("img")} />
               <br />
 
+              <input className="m-3 p-2" placeholder="Price" defaultValue="" {...register("price")} /><br />
+
               <textarea className="m-3 p-2" placeholder="Description" {...register("description")} /><br />
 
 
