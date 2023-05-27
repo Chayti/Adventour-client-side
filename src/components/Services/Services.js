@@ -7,7 +7,7 @@ const Services = () => {
     const [services, setServices] = useState([])
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('https://spooky-skull-68797.herokuapp.com/services')
+        fetch('https://adventour-server-side.vercel.app/services')
             .then(res => res.json())
             .then(data => {
                 setServices(data)

@@ -15,10 +15,10 @@ const ServiceDetail = () => {
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
     useEffect(() => {
-        fetch(`https://spooky-skull-68797.herokuapp.com/services/${serviceId}`)
+        fetch(`https://adventour-server-side.vercel.app/services/${serviceId}`)
             .then(res => res.json())
             .then(data => {
-                console.log(`https://spooky-skull-68797.herokuapp.com/services/${serviceId}`)
+                console.log(`https://adventour-server-side.vercel.app/services/${serviceId}`)
                 setService(data)
             }
             );
@@ -31,7 +31,7 @@ const ServiceDetail = () => {
         data.img = service.img
         data.description = service.description
         data.status = 'pending'
-        fetch('https://spooky-skull-68797.herokuapp.com/booking', {
+        fetch('https://adventour-server-side.vercel.app/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

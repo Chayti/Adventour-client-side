@@ -8,7 +8,7 @@ const ManageServices = () => {
   const [services, setServices] = useState([])
 
   useEffect(() => {
-    fetch('https://spooky-skull-68797.herokuapp.com/booking')
+    fetch('https://adventour-server-side.vercel.app/booking')
       .then(res => res.json())
       .then(data => setServices(data));
   }, [services])
@@ -17,7 +17,7 @@ const ManageServices = () => {
     // console.log(data)
     data.status = "approved";
     if (data.email) {
-      fetch(`https://spooky-skull-68797.herokuapp.com/booking/${data._id}`, {
+      fetch(`https://adventour-server-side.vercel.app/booking/${data._id}`, {
         method: "PUT",
         headers: {
           'content-type': "application/json"
@@ -31,8 +31,8 @@ const ManageServices = () => {
   }
 
   const handleDelete = (id) => {
-    const url = `https://spooky-skull-68797.herokuapp.com/booking/${id}`
-    console.log(`https://spooky-skull-68797.herokuapp.com/booking/${id}`)
+    const url = `https://adventour-server-side.vercel.app/booking/${id}`
+    console.log(`https://adventour-server-side.vercel.app/booking/${id}`)
     const ans = window.confirm('Do you want to delete it?')
     if (ans) {
       axios

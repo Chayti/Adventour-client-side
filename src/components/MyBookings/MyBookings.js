@@ -9,14 +9,14 @@ const MyBookings = () => {
     const { user } = useFirebase();
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch(`https://spooky-skull-68797.herokuapp.com/myServices/${user?.email}`)
+        fetch(`https://adventour-server-side.vercel.app/myServices/${user?.email}`)
             .then((res) => res.json())
             .then((data) => setServices(data));
     }, [user.email, services]);
 
     const handleDelete = (id) => {
-        console.log(`https://spooky-skull-68797.herokuapp.com/booking/${id}`)
-        const url = `https://spooky-skull-68797.herokuapp.com/booking/${id}`
+        console.log(`https://adventour-server-side.vercel.app/booking/${id}`)
+        const url = `https://adventour-server-side.vercel.app/booking/${id}`
         const ans = window.confirm('Do you want to delete it?')
         if (ans) {
             axios
